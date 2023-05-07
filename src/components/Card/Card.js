@@ -1,15 +1,13 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import styles from './Card.module.css';
 
-const Card = () => (
-  <div className={styles.Card}>
-    Card Component
-  </div>
-);
-
-Card.propTypes = {};
-
-Card.defaultProps = {};
+const Card = ({ image, name, onCardClick }) => {
+  return (
+    <div className={styles.Card} onClick={onCardClick}>
+      <img src={image} alt={`${name} card`} />
+      <h3>{name}</h3>
+    </div>
+  )
+};
 
 export default Card;
