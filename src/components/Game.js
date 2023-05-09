@@ -3,7 +3,7 @@ import styles from '../styles/Game.module.css';
 
 import Score from "./Score";
 import Board from "./Board";
-import cards from "../cards";
+import cards from "../assets/cards";
 
 const Game = () => {
   const [bestScore, setBestScore] = useState(0);
