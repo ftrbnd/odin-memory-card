@@ -3,8 +3,8 @@ import styles from './Card.module.css';
 
 const Card = ({ image, name, onCardClick }) => {
   return (
-    <div className={styles.Card} onClick={onCardClick}>
-      <img src={image} alt={`${name} card`} />
+    <div className={styles.Card}>
+      <img src={image} alt={`${name} card`} onClick={onCardClick} />
       <h3>{name}</h3>
     </div>
   )
