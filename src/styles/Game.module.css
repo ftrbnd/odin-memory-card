@@ -1,1 +1,25 @@
-.Game {}
+.Game {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 2fr 1fr;
+}
+
+.best, .current {
+    grid-column: 2;
+    justify-self: end;
+}
+
+.best {
+    grid-row: 1;
+}
+
+.current {
+    grid-row: 2;
+}
+
+.image {
+    grid-row: 3;
+    grid-column: 2;
+    justify-self: end;
+    height: 5%;
+}

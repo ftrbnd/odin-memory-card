@@ -1,1 +1,11 @@
-.Card {}
+.Card {
+    border: 1px dotted black;
+}
+
+.Card:hover {
+    cursor: pointer;
+}
+
+img {
+    height: 20rem;
+}

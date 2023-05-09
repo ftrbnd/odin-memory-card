@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/Game.module.css';
 
-import Score from "./Score";
 import Board from "./Board";
 import cards from "../assets/cards";
 import figure from "../assets/figure.png"
@@ -44,10 +43,10 @@ const Game = () => {
 
   return (
     <div className={styles.Game}>
-      <Score type="Best" value={bestScore} />
-      <Score type="Current" value={currentScore} />
+      <h2 className={styles.best}>Best: {bestScore}</h2>
+      <h2 className={styles.current}>Current: {currentScore}</h2>
       <Board cards={gameCards} onCardClick={handleCardClick} />
-      <img src={figure} alt="outlined figure of eden"/>
+      <img src={figure} alt="outlined figure of eden" className={styles.image} />
     </div>
   );
 }
