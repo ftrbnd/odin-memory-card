@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Score.module.css';
+import styles from '../styles/Score.module.css';
 
 const Score = ({ type, value }) => (
   <div className={styles.Score}>

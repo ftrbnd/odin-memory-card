@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import styles from './Game.module.css';
+import styles from '../styles/Game.module.css';
 
-import Score from "../Score/Score";
-import Board from "../Board/Board";
-import cards from "../../cards";
+import Score from "./Score";
+import Board from "./Board";
+import cards from "../cards";
 
 const Game = () => {
   const [bestScore, setBestScore] = useState(0);

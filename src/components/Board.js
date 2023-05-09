@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './Board.module.css';
+import styles from '../styles/Board.module.css';
 
-import Card from '../Card/Card';
+import Card from './Card';
 
 const Board = ({ cards, onCardClick }) => {
   return (
