@@ -4,6 +4,7 @@ import styles from '../styles/Game.module.css';
 import Score from "./Score";
 import Board from "./Board";
 import cards from "../assets/cards";
+import figure from "../assets/figure.png"
 
 const Game = () => {
   const [bestScore, setBestScore] = useState(0);
@@ -46,6 +47,7 @@ const Game = () => {
       <Score type="Best" value={bestScore} />
       <Score type="Current" value={currentScore} />
       <Board cards={gameCards} onCardClick={handleCardClick} />
+      <img src={figure} alt="outlined figure of eden"/>
     </div>
   );
 }
