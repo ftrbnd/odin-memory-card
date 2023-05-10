@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from '../styles/Game.module.css';
 
+import Header from "./Header";
 import Board from "./Board";
 import cards from "../assets/cards";
 import figure from "../assets/figure.png"
@@ -43,6 +44,7 @@ const Game = () => {
 
   return (
     <div className={styles.Game}>
+      <Header title="EDEN Memory Cards" />
       <div className={styles.scores}>
         <h2 className={styles.best}>Best: {bestScore}</h2>
         <h2 className={styles.current}>Current: {currentScore}</h2>
