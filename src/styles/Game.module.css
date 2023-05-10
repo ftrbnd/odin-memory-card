@@ -1,13 +1,17 @@
 .Game {
     display: grid;
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-    align-items: center;
+    align-items: start;
+
+    padding: 2rem;
+    height: 100%;
 }
 
 .scores {
     grid-column: 1 / -1;
+    grid-row: 2;
 
     display: grid;
     grid-template-columns: repeat(2, auto);
@@ -27,6 +31,6 @@
 .image {
     grid-row: 3;
     grid-column: 2;
-    justify-self: end;
+    justify-self: center;
     height: 50%;
 }
