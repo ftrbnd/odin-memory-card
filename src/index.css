@@ -12,3 +12,12 @@ code {
     monospace;
 }
 
+html, body {
+  height: 100vh;
+}
+
+body {
+  background-color: black;
+  color: white;
+  height: 100%;
+}

@@ -43,8 +43,10 @@ const Game = () => {
 
   return (
     <div className={styles.Game}>
-      <h2 className={styles.best}>Best: {bestScore}</h2>
-      <h2 className={styles.current}>Current: {currentScore}</h2>
+      <div className={styles.scores}>
+        <h2 className={styles.best}>Best: {bestScore}</h2>
+        <h2 className={styles.current}>Current: {currentScore}</h2>
+      </div>
       <Board cards={gameCards} onCardClick={handleCardClick} />
       <img src={figure} alt="outlined figure of eden" className={styles.image} />
     </div>

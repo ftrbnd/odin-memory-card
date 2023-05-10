@@ -4,7 +4,7 @@ import Game from "./components/Game"
 function App() {
   return (
     <div>
-      <Header title="Memory Card" />
+      <Header title="EDEN Memory Cards" />
       <Game />
     </div>
   );

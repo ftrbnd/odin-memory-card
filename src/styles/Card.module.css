@@ -1,11 +1,17 @@
 .Card {
-    border: 1px dotted black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.Card:hover {
+.Card img:hover {
     cursor: pointer;
+    box-shadow: 0 0 1em rgb(128, 128, 128);
 }
 
-img {
-    height: 20rem;
+.Card img {
+    height: 15rem;
+}
+
+h3 {
 }

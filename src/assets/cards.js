@@ -35,39 +35,44 @@ const cards = [
         id: 6
     },
     {
+        image: 'https://i1.sndcdn.com/artworks-000137106468-1cnt8j-t500x500.jpg',
+        name: 'Billie Jean',
+        id: 7
+    },
+    {
         image: 'https://i1.sndcdn.com/artworks-000166747648-whyf9a-t500x500.jpg',
         name: 'sex',
-        id: 7
+        id: 8
     },
     {
         image: 'https://i1.sndcdn.com/artworks-000171432996-7spwh0-t500x500.jpg',
         name: 'drugs',
-        id: 8
+        id: 9
     },
     {
         image: 'https://i1.sndcdn.com/artworks-000177423015-fo59jb-t500x500.jpg',
         name: 'and',
-        id: 9
+        id: 10
     },
     {
         image: 'https://i1.sndcdn.com/artworks-000177423021-ptk3z4-t500x500.jpg',
         name: 'rock + roll',
-        id: 10
+        id: 11
     },
     {
         image: 'https://i1.sndcdn.com/artworks-000177389108-d605g9-t500x500.jpg',
         name: 'Fumes (feat. gnash)',
-        id: 11
+        id: 12
     },
     {
         image: 'https://i1.sndcdn.com/artworks-000177423193-jgr636-t500x500.jpg',
         name: 'XO',
-        id: 12
+        id: 13
     },
     {
         image: 'https://i1.sndcdn.com/artworks-000177424141-vs8frr-t500x500.jpg',
         name: 'Circles',
-        id: 13
+        id: 14
     },
 ];
 
